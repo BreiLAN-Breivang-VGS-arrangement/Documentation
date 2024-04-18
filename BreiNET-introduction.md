@@ -1,0 +1,5 @@
+# What is BreiNET?
+BreiNET is a project that was founded by Storli, Sebastian, Aksel, and Kjellmo. The plan was to make an website for BreiLAN where we could display all the events of the LAN in an interactive way. It is now evolving into an almost full-stack website that does more than just show the tournaments.
+
+# Inner workings of BreiNET
+Behind the scenes; BreiNET is made up of several components. There are three different flask scripts that will all be running and be responsible for different parts of the site. [[Authentication]], [[Tournaments]], and [[Tickets]]. These handling all interaction with the [[postgresql database]]. For the front-end we have 2 different Vue instances. [[Tournaments Vue]] and [[Tickets Vue]].  In addition, we are thinking of using NGINX as a load balancer for the [[Tournaments ]]and [[Tickets]] API's. 
